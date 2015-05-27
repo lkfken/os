@@ -1,7 +1,7 @@
 # OS
 
 The gem helps identify the host system OS.
-The original source was found <a href="http://stackoverflow.com/questions/11784109/detecting-operating-systems-in-ruby/20579735#20579735">here</a>
+The original source was found <a href="http://stackoverflow.com/questions/11784109/detecting-operating-systems-in-ruby">here</a>
 
 ## Installation
 
@@ -27,6 +27,7 @@ In the Gemfile, add the following.
 gem 'os', :github => 'lkfken/os'
 ...
 ```
+
 ```ruby
 OS.host # :windows, :macosx, :linux, :unix, or raise OS::UnknownError
 ```

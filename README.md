@@ -21,7 +21,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+OS.host # :windows, :macosx, :linux, :unix, or raise OS::UnknownError
+```
 
 ## Contributing
 

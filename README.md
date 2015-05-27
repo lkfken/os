@@ -22,7 +22,7 @@ Or install it yourself as:
 ## Usage
 
 ```
-OS.host # :windows, :macosx, :linux, :unix, or raise OS::UnknownError
+OS.host <i># :windows, :macosx, :linux, :unix, or raise OS::UnknownError</i>
 ```
 
 ## Contributing

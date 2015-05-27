@@ -21,7 +21,13 @@ Or install it yourself as:
 
 ## Usage
 
+In the Gemfile, add the following.
 ```
+...
+gem 'os', :github => 'lkfken/os'
+...
+```
+```ruby
 OS.host # :windows, :macosx, :linux, :unix, or raise OS::UnknownError
 ```
 

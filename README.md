@@ -1,6 +1,7 @@
-# Os
+# OS
 
-TODO: Write a gem description
+The gem helps identify the host system OS.
+The original source was found <a href="http://stackoverflow.com/questions/11784109/detecting-operating-systems-in-ruby/20579735#20579735">here</a>
 
 ## Installation
 

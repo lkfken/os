@@ -8,7 +8,7 @@ The original source was found <a href="http://stackoverflow.com/questions/117841
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'os'
+gem 'os', :github => 'lkfken/os'
 ```
 
 And then execute:
@@ -20,13 +20,6 @@ Or install it yourself as:
     $ gem install os
 
 ## Usage
-
-In the Gemfile, add the following.
-```
-...
-gem 'os', :github => 'lkfken/os'
-...
-```
 
 ```ruby
 OS.host # :windows, :macosx, :linux, :unix, or raise OS::UnknownError

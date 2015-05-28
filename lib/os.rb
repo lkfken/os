@@ -5,7 +5,6 @@ class OS
   class UnknownError < StandardError
   end
   # http://stackoverflow.com/questions/11784109/detecting-operating-systems-in-ruby/20579735#20579735
-  attr_writer :host_os
 
   def self.host_os
     RbConfig::CONFIG['host_os']

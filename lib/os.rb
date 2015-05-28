@@ -1,6 +1,5 @@
-require "os/version"
+require 'os/version'
 require 'rbconfig'
-require 'singleton'
 
 class OS
   class UnknownError < StandardError

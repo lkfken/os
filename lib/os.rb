@@ -25,4 +25,19 @@ class OS
     end
   end
 
+  def self.end_of_line
+    case host
+    when :windows
+      "\n"
+    when :linux, :macosx, :unix
+      "\r\n"
+    else
+      raise OS::UnknownError, "unknown EOL for os: #{host_os.inspect}"
+    end
+  end
+
+  def self.eol
+    end_of_line
+  end
+
 end
